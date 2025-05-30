@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Keywords" content="form, html, web design">
+    <link rel="shortcut icon" href="Assets/form logo.png">
+    <title>Tour Registration Form</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        form{
+            
+            height: 35%;
+            width: 1250px;
+            
+        }
+        #remembrance{
+         text-align: center;
+         }
+    </style>
+</head>
+
+<body>
+    <h1 style="background-color:skyblue;">
+    <img height="300" width="334.5" src="Assets/remembrance logo.png" alt="Remembrance logo"><br><i> Remembrance Tourism </i>
+    </h1>
+    <form action="https://forms.gle/hc13p3P2zh6kdmFu8">
+        <fieldset id="remembrance">
+            <legend><h2>Tour Registration Form</h2></legend>
+            <br>
+            <div class="input">
+                <label for=""><b>Enter Your Name</b></label> <br>
+                <input placeholder="Enter Your Name in Block Letter" 
+                type="text" name="name" id="input-name" size="40"
+                minlength="5" maxlength="50"  required/>
+            </div><br>
+            <div class="input">
+                <label for=""><b>Contact Number</b></label> <br>
+                <input placeholder="Enter a valid phone number" type="number" name="Contact Number" 
+                id="input-number" size="60" required/>
+            </div>
+            <br>
+            <div class="input">
+                <label for=""><b>Enter Your Email</b></label> <br>
+                <input placeholder="*****************@example.com" type="email" name="email" id="input-email" size="40"
+                    required />
+            </div>
+            <br>
+            <div class="input">
+                <h4><u>Address</u></h4>
+                <label for="">1.Street Name:</label>
+                <input type="text" name="address" 
+                id="input-address"required/>  <br>
+                <br>
+                <label for="">2.Upazila:</label>
+                <input type="text" name="address" 
+                id="input-address"required/> <br>
+                <br>
+                <label for="">3.District:</label>
+                <input type="text" name="address" 
+                id="input-address"required/> <br>
+                <br>
+                <label for="">4.Division:</label>
+                <select name="" id=""> 
+                    <option selected>Select</option>
+                    <option >Dhaka</option>
+                    <option >Chottogram</option>
+                    <option >Khulna</option>
+                    <option >Rajshahi</option>
+                    <option >Barishal</option>
+                    <option >Sylhet</option>
+                    <option >Rangpur</option>
+                    <option >Mymansingh</option>
+                </select> 
+                <label for="">5.Post code:</label>
+                <input type="number" name="post code" required/>
+            </div>
+            <br>
+            <div class="input">
+                <label for=""><b>Tour Spot</b></label> <br>
+                <input placeholder="Tour Spot Name" type="text" name="Name of Tour Spot" id="input-name" size="7"
+                    required value="Cox's Bazar" readonly/>
+            </div>
+            <br>
+            <div class="input">
+                <label for=""><b>Enter Your Favourite Color for Tour Jersey</b></label> <br>
+                <input placeholder="Enter Your Color" 
+                type="color" name="Color" id="input-color" size="60"/>
+            </div>
+            <br>
+            <div>
+                <label><b>Tour Type</b></label> <br>
+                <input type="radio" name="type" id=""/>Extended<br>
+                <input type="radio" name="type" id=""/>Full Day<br>
+                <input type="radio" name="type" id=""/>Half Day or Less<br>
+                <input type="radio" name="type" id=""/>Night<br>
+                <input type="radio" name="type" id=""/>Tailored<br>
+            </div><br>
+            <div class="input">
+                <label for=""><b>Date of Tour</b></label> <br>
+                <input placeholder="Tour Date" 
+                type="date" name="date of tour" 
+                id="input-date"required/>
+            </div>
+            <br>
+            <div class="input">
+                <label for=""><b>Travel Budget</b></label> <br>
+                <input placeholder="Enter the budget" 
+                type="number" name="Budget" size="5"
+                id="input-budget"required /> Tk
+            </div>
+            <br>
+            <div class="input">
+                <label for=""><b>Enter date and time by which you will be able to pay the full cost of the tour</b></label><br>
+                <input placeholder="date and time for pay the full cost of the tour." 
+                type="datetime-local" name="date and time for paying the full cost" 
+                id="input-date and time"required/>
+            </div>
+            <br>
+            <div class="input">
+                <label for=""><b>Upload Your Photo</b></label><br>
+                <input type="file" name="Photo" 
+                id="input-Photo"required/>
+            </div>
+            <br>
+            <div class="input">
+                <label for=""><b>Enter Your Gender</b></label><br>
+                <input type="radio" name="gender" id="">Male
+                <input type="radio" name="gender" id="">Female
+            </div>
+            <br>
+            <div class="input">
+                <label for=""><b>Enter Your Age:</b></label>
+                <input placeholder="age" type="number" min="18" max="40" name="age" 
+                id="input-age"required/>
+            </div>
+            <br>
+            <div class="input">
+                <label for=""><b>Enter Your Secret Password</b></label><br>
+                <input placeholder="|||||||||||||||||||||||||||||||||||||||||||||||||||||" 
+                type="password" name="Password" 
+                id="input-Password"required/>
+            </div>
+            <br>
+            <div>
+          <input type="submit" value="Register Now" style="background-color: skyblue;"> 
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
